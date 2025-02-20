@@ -1,0 +1,20 @@
+@media screen and (max-width:768px) {
+    .li-txt{
+        display: none !important;
+    }
+    
+    .input-holder{
+        flex-direction: column !important;
+    }
+    .date-holder{
+        width: 100% !important;
+    }
+}
+@media screen and (max-width:768px) {
+    .sign-msg{
+        display: none !important;
+    }
+    form{
+        width: 100%;
+    }
+}

@@ -1,0 +1,166 @@
+:root{
+    --main-color:#6366F1;
+    --complete-color: greenyellow;
+
+}
+body{
+    scroll-behavior: smooth;
+}
+ul{
+    list-style-type: none;
+    margin-top: 100px;
+    padding-left: 0;
+}
+.side-bar{
+    background-color: var(--main-color);
+    height: 100vh;
+    position: relative;
+    position: fixed ;
+    width:20% ;
+    box-shadow: #0000003d 10px 5px 35px 5px;
+}
+li{
+    font-size: 20px;
+    margin-block:25px ;
+    cursor: pointer;
+}
+li:hover{
+    font-size: 25px;
+    transition: ease-in-out 0.2s;
+}
+.log-out{
+    position: absolute;
+    bottom: 30px;
+    font-size: 20px;
+
+}
+.log-out:hover{
+    font-size: 25px;
+    transition: ease-in-out 0.3s;
+    cursor: pointer;
+
+}
+.main{
+    width: 80%;
+    margin-left: 20%;
+}
+textarea{
+    scrollbar-gutter: stable;
+}
+
+#add{
+    background-color: #6366F1;
+}
+.title-name{
+    background-color: var(--complete-color);
+    width: 100%;
+    border-radius: 20px;
+    position: relative;
+}
+.status-label{
+    background-color:var(--complete-color);
+    border-radius: 15px;
+
+}
+.icons{
+    position:absolute;
+    right: 7px;
+    top: 5px;
+}
+.icons i:hover{
+    font-size: 105%;
+}
+.card{
+    box-shadow: #0000003d 5px 5px 5px 2px;
+    cursor: pointer;
+}
+.card:hover{
+    transform: translatey(-10px);
+    transition: ease-in 0.2s;
+}
+/* sign up */
+
+.bg{
+    height: 100vh;
+    background: linear-gradient(to right ,#e2e2e2,#6366F1);
+}
+
+.sign-card{
+    box-shadow: #0000003d 10px 5px 35px 5px;
+    /* padding: 35px; */
+    border-radius: 25px;
+    background-color: #e2e2e2;
+    
+}
+.sign-msg{
+    height: 100% ;
+    color: white;
+    background-color: #6366F1;
+    border-radius: 25px;
+    padding-block: 200px;
+    padding-inline: 20px;
+    text-align: center;
+}
+#signUp{
+    background-color: #6366F1;
+
+}
+form{
+    padding: 25px;
+    padding-left: 30px !important;
+}
+
+
+/* sign in */
+
+.bg{
+    height: 100vh;
+    background: linear-gradient(to right ,#e2e2e2,#6366F1);
+}
+
+.sign-card{
+    box-shadow: #0000003d 10px 5px 35px 5px;
+    /* padding: 35px; */
+    border-radius: 25px;
+    background-color: #e2e2e2;
+    
+}
+.sign-msg{
+    height: 100% ;
+    color: white;
+    background-color: #6366F1;
+    border-radius: 25px;
+    /* padding-block: 200px; */
+    padding-inline: 20px;
+    text-align: center;
+    box-shadow:  #0000003d -5px 5px 45px 2px;
+}
+#signIn{
+    background-color: #6366F1;
+
+}
+form{
+    padding: 25px;
+    padding-left: 30px !important;
+}
+.pending-color{
+    background-color: #FFC107;
+}
+.completed-color{
+    background-color: var(--complete-color);
+}
+.progress-color{
+    background-color: #0D6EFD;
+}
+img{
+    max-width: 100%  !important; 
+    width: 35%;
+}
+.sign{
+    margin-top: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: black;
+}
